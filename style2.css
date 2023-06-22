@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles spécifiques */
+  
+  body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5%;
+  }
+  
+  .profile-top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    background-image: url(https://wcs.uwo.ca/upload/CE0060b.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 5%;
+    border: 1px solide white;
+  }
+  
+  .profile-image {
+    background-image: url(https://us.123rf.com/450wm/nikolaydzhi/nikolaydzhi1609/nikolaydzhi160900325/64778973-mooie-moslim-arabische-vrouw-in-hijab-sluit-haar-ogen-vector-platte-icoon-avatar-prachtig-gezicht.jpg?ver=6);
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solide white;
+    bottom: -80px;
+  }
+  
+  .profile-bottom {
+    display: flex;
+  }
+  
+  .profile-info {
+    flex-grow: 1;
+    padding-right: 20px;
+  }
+  
+  .mail-info {
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .age {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .email {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #388eff;
+    cursor: pointer;
+  }
+  .email:hover {
+    text-decoration: underline;
+  }
+  
+  .ville {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #888;
+  }
+  
+  .ville ion-icon {
+    margin-right: 5px;
+    color: #388eff;
+  }
+  
+  .profile-skills {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills-item {
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .skills {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .grey {
+    color: #888;
+  }
